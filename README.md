@@ -1,24 +1,62 @@
-# formulario-vue
+### Mudar o background do formulario
 
-## Project setup
 ```
-npm install
-```
+Botão Carregar Foto
 
-### Compiles and hot-reloads for development
-```
-npm run serve
 ```
 
-### Compiles and minifies for production
+### Mudar a cor do label
+
 ```
-npm run build
+Cor label
+
 ```
 
-### Lints and fixes files
+### Mudar a cor do texto do input
+
 ```
-npm run lint
+Cor input
+
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Mudar a cor do texto do input
+
+```
+Cor input
+
+```
+
+### Mudar da borda do input
+
+```
+Border-input
+
+```
+
+### Mudar a cor do botão
+
+```
+Cor-button
+
+```
+
+### Mudar a da bordar do button
+
+```
+Border-button
+
+```
+
+### Botao default
+
+```
+Tira todas as cores e background personalizados
+
+```
+
+### Botao enviar
+
+```
+Mostra todas as informações preenchidas
+
+```

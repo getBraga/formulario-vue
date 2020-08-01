@@ -1,28 +1,43 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <Formulario />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Formulario from "@/components/Formulario.vue";
 export default {
-  name: 'App',
+  name: "App",
+  data() {
+    return {
+      isActive: false,
+      teste: [],
+      criar: Formulario.data().formulario,
+    };
+  },
+
   components: {
-    HelloWorld
-  }
-}
+    Formulario,
+  },
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style >
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body,
+form,
+input,
+label {
+  padding: 0px;
+  margin: 0px;
+  display: block;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
 }
 </style>
